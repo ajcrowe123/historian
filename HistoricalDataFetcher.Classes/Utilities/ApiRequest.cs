@@ -67,7 +67,7 @@ namespace HistoricalDataFetcher.Classes.Utilities
             _username = username;
             _password = password;
             _httpHost = httpHost;
-            _urlBase = $"https://{_httpHost}/api/v1";
+            _urlBase = $"https://{_httpHost}/api/v2";
             _stopWatch = new Stopwatch();
 
             _allowCertificateError = allowCertificateError;
